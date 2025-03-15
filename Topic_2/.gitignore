@@ -1,0 +1,20 @@
+# Ignore all executables
+*.out
+*.exe
+*.app
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore any temporary files
+*~
+*.swp
+
+# Ignore build artifacts
+*.dSYM/
+
+# Ignore specific executables that might not have extensions
+OptionPricer*
+!OptionPricer*.cpp
+!OptionPricer*.h 
